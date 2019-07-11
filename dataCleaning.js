@@ -5,7 +5,6 @@ data = {"results":{"name":"Sprocket Interview Test","types":{"distrubutor":[{"na
 // output max && average numeric attributes
 // output uniques of text / string attributes
 
-// var async = require("async");
 var average = require('average');
 
 const types = data.results.types
