@@ -23,9 +23,9 @@ let result = {
 
 let filteredResult = {}
 
-assignTypes(keys)
+filterData(keys)
 
-async function assignTypes(keys){
+async function filterData(keys){
     await keys.forEach(key => {
         types[key].forEach( biz => {
             result.addresses.push(biz.address)
